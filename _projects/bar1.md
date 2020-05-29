@@ -1,7 +1,7 @@
 ---
 title: Bar
 subtitle: Cool Bar
-url-suffix: bar1
+uid: bar1
 img:
   - bar1.jpg
 thumbnail: bar1.jpg

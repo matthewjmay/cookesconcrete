@@ -17,14 +17,14 @@ social:
 
 collections:
   projects:
-    order:
-      - table1.md
-      - bar1.md
-      - table2.md
-      - colored.md
-      - matching-tables.md
-      - table2.md
-      - bar2.md
+
+project_order:
+  - table1
+  - bar1
+  - table2
+  - colored
+  - matching-tables
+  - bar2
 
 # Build settings
 markdown: kramdown

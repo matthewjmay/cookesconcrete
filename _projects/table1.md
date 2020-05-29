@@ -1,8 +1,7 @@
 ---
 title: Table
 subtitle: Really cool table
-url-suffix: table1
-date: 2014-07-14
+uid: table1
 img:
   - table1.jpg
   - table1-variation.jpg

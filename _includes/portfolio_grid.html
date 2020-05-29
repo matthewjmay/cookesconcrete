@@ -8,23 +8,27 @@
                 </div>
             </div>
             <div class="row equal-height">
-            {% for project in site.projects %}
-                <div class="col-md-4 col-sm-6">
-                    <div class="portfolio-item">
-                        <a href="#project-{{ project.url-suffix | slugify }}" class="portfolio-link" data-toggle="modal">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content">
-                                    <i class="fa fa-plus fa-3x"></i>
+            {% for ordered_project in site.project_order %}
+                {% for project in site.projects %}
+                    {% if project.uid == ordered_project %}
+                        <div class="col-md-4 col-sm-6">
+                            <div class="portfolio-item">
+                                <a href="#project-{{ project.uid | slugify }}" class="portfolio-link" data-toggle="modal">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <i class="fa fa-plus fa-3x"></i>
+                                        </div>
+                                    </div>
+                                    <img src="img/portfolio/{{ project.thumbnail }}" class="img-responsive img-centered portfolio-thumbnail" alt="">
+                                </a>
+                                <div class="portfolio-caption">
+                                    <h4>{{ project.title }}</h4>
+                                    <p class="text-muted">{{ project.subtitle }}</p>
                                 </div>
                             </div>
-                            <img src="img/portfolio/{{ project.thumbnail }}" class="img-responsive img-centered portfolio-thumbnail" alt="">
-                        </a>
-                        <div class="portfolio-caption">
-                            <h4>{{ project.title }}</h4>
-                            <p class="text-muted">{{ project.subtitle }}</p>
                         </div>
-                    </div>
-                </div>
+                    {% endif %}
+                {% endfor %}
             {% endfor %}
             </div>
         </div>

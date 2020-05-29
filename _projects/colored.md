@@ -1,7 +1,7 @@
 ---
 title: Colored Concrete
 subtitle: Cool colors and stuff
-url-suffix: colored
+uid: colored
 img:
   - colored.jpg
 thumbnail: colored.jpg

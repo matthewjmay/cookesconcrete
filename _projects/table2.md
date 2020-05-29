@@ -1,7 +1,7 @@
 ---
 title: Another table
 subtitle: Cooler table
-url-suffix: table2
+uid: table2
 img:
   - table2.jpg
 thumbnail: table2.jpg

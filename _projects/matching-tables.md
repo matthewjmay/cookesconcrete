@@ -1,7 +1,7 @@
 ---
 title: Matching Tables
 subtitle: Matching living room tables
-url-suffix: matching-tables
+uid: matching-tables
 img:
   - matching-tables.jpg
 thumbnail: matching-tables.jpg
