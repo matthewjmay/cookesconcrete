@@ -1,0 +1,11 @@
+---
+title: Bar
+subtitle: Cool Bar
+url-suffix: bar1
+img:
+  - bar1.jpg
+thumbnail: bar1.jpg
+project-date: April 2014
+category: Custom Bar
+---
+10 foot long bar, 3 pieces, etc.
