@@ -8,4 +8,4 @@ thumbnail: bar1.jpg
 project-date: April 2014
 category: Custom Bar
 ---
-10 foot long bar, 3 pieces, etc.
+10 foot long bar, 23 pieces, etc.
