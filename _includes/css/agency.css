@@ -277,19 +277,17 @@ background-attachment: scroll;
     background-size: cover;
 -o-background-size: cover;
 }
-.header {
-  /* position: relative; */
 
-
-}
-.header::before {
-  position: absolute;
-  content: '';
-  z-index: -1;
-  width: 200px;
-  height: 50px;
+.profile-pic {
+    max-height: 300px;
+    width:100%;
+    object-fit: cover;
+    object-position: 0 15%;
 }
 
+.about {
+    font-size: 18px;
+}
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -496,9 +494,30 @@ section#contact {
     background-image: url('{{ site.baseurl }}/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
+    padding-bottom: 85px;
 }
 
 section#contact .section-heading {
+    color: #fff;
+}
+section#contact .contactlist {
+    color: #fff;
+    font-size: 20px;
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+}
+section#contact .contactlist i {
+    font-size: 25px;
+    width: 40px;
+    line-height: 40px;
+    height:40px;
+    vertical-align: middle
+}
+section#contact .contactlist .row {
+    margin-bottom: 15px;
+}
+section#contact a {
     color: #fff;
 }
 
