@@ -267,15 +267,27 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    /*color: #000;*/
-    background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+/*color: #000;*/
+background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/header-bg-2.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+-o-background-size: cover;
+}
+.header {
+  /* position: relative; */
+
+
+}
+.header::before {
+  position: absolute;
+  content: '';
+  z-index: -1;
+  width: 200px;
+  height: 50px;
 }
 
 header .intro-text {

@@ -19,13 +19,15 @@ collections:
   projects:
 
 project_order:
+  - fireplace
+  - largebar
+  - matching-tables
+  - bar2
   - table1
   - bar1
   - table2
-  - New Project
   - colored
-  - matching-tables
-  - bar2
+  - light
 
 # Build settings
 markdown: kramdown
